@@ -63,11 +63,9 @@ Grad-CAM highlights the most important regions used by the model:
 ---
 
 ## 📜 Certificate
-This project was officially recognized as part of my **Deep Learning Lab coursework**.  
+This project was officially recognized as part of my **Deep Learning Lab coursework**.
 
-![Certificate Preview](docs/certificate.png)  
-
-👉 [View Full Certificate (PDF)](docs/certificate.pdf)  
+👉 [View Certificate (PDF)](docs/deep_learning_lab_certificate.pdf)
 
 ---
 
