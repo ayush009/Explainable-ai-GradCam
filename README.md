@@ -5,6 +5,18 @@ The task: train an **image classifier** and provide **explainable predictions** 
 
 ---
 
+##📂 Repository Contents
+Due to cluster restrictions, the full training code cannot be shared here.
+Instead, this repository contains:
+
+✅ Final presentation slides
+
+✅ Evaluation results (Classification & Explainability metrics)
+
+✅ A Grad-CAM demo notebook using pretrained ResNet
+
+---
+
 ## 🚀 Project Overview
 - Trained **ResNet-50** on Pascal VOC dataset (20 object classes).
 - Implemented **Grad-CAM** for class-specific saliency maps.
@@ -29,7 +41,10 @@ The task: train an **image classifier** and provide **explainable predictions** 
 ## 🔍 Example Saliency Maps
 Grad-CAM highlights the most important regions used by the model:
 
-![Example](results/sample_saliency.png)
+![Example](results/sample1_class14_saliency.png)
+*Example: Grad-CAM saliency map for Class 14.*  
+Bright yellow regions highlight where the model focused most strongly when making its prediction,  
+while darker areas indicate less influence. This visualization shows **which parts of the image drive the decision**.
 
 ---
 
