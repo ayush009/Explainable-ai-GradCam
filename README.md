@@ -38,13 +38,20 @@ Instead, this repository contains:
 
 ---
 
-## 🔍 Example Saliency Maps
-Grad-CAM highlights the most important regions used by the model:
+## 🔍 Example Saliency Maps  
 
-![Example](results/sample1_class14_saliency.png)
+Grad-CAM highlights the most important regions used by the model:  
+
+<p align="center">
+  <img src="results/sample1_class14_saliency.png" alt="Grad-CAM Example" width="400"/>
+</p>  
+
 *Example: Grad-CAM saliency map for Class 14.*  
-Bright yellow regions highlight where the model focused most strongly when making its prediction,  
-while darker areas indicate less influence. This visualization shows **which parts of the image drive the decision**.
+
+Bright **yellow regions** show where the model focused most strongly when making its prediction,  
+while **darker areas** indicate less influence.  
+This visualization clearly illustrates **which parts of the image drive the decision**.  
+
 
 ---
 
